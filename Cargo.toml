@@ -5,6 +5,7 @@ authors = ["xushuai <dyxushuai@gmail.com>"]
 description = "QUIC rust implemention"
 homepage = "https://github.com/quic-rs/quic"
 repository = "https://github.com/quic-rs/quic"
+license = "MIT/Apache-2.0"
 readme = "README.md"
 
 [dependencies]
