@@ -1,5 +1,5 @@
 [package]
-name = "quicp"
+name = "libquic"
 version = "0.0.1"
 authors = ["xushuai <dyxushuai@gmail.com>"]
 description = "QUIC rust implemention"
