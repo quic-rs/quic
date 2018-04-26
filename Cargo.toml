@@ -1,0 +1,10 @@
+[package]
+name = "quicp"
+version = "0.0.1"
+authors = ["xushuai <dyxushuai@gmail.com>"]
+description = "QUIC rust implemention"
+homepage = "https://github.com/quic-rs/quic"
+repository = "https://github.com/quic-rs/quic"
+readme = "README.md"
+
+[dependencies]
