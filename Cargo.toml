@@ -1,6 +1,6 @@
 [package]
 name = "quic"
-version = "0.0.1"
+version = "0.0.2"
 authors = ["xushuai <dyxushuai@gmail.com>", "cssivision cssivision@gmail.com"]
 description = "QUIC rust implemention"
 homepage = "https://github.com/quic-rs/quic"

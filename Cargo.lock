@@ -1,4 +1,4 @@
 [[package]]
-name = "libquic"
-version = "0.0.1"
+name = "quic"
+version = "0.0.2"
 
