@@ -4,7 +4,7 @@
 
 # Wanted Features
 
-* Currently targets QUIC draft 10 and TLS 1.3 draft 23
+* Currently targets QUIC draft 11 and TLS 1.3 draft 23
 * Uses [rustls][rustls] for all TLS operations
 * Uses [*ring*][ring] for AEAD encryption/decryption
 
