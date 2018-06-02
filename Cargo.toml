@@ -12,6 +12,7 @@ readme = "README.md"
 bytes = "^0.4.0"
 failure = "^0.1.0"
 failure_derive = "^0.1.0"
+rand = "^0.5.0"
 
 [dependencies.rustls]
 git = "https://github.com/ctz/rustls"
