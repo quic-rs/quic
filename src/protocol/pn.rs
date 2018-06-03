@@ -1,7 +1,9 @@
 use super::{Decoder, Encoder};
 use bytes::{Buf, BufMut, IntoBuf};
 use error::{Error, ErrorKind, Result};
-use std::sync::atomic::{AtomicU32, Ordering};
+use std::{
+    self, sync::atomic::{AtomicU32, Ordering},
+};
 
 const MAX_PN_1: u32 = 0b01111111;
 const MAX_PN_2: u32 = 0b00111111_11111111;
@@ -14,7 +16,7 @@ const PN_4_FLAG: u8 = 0b11;
 #[derive(Debug, Eq, PartialEq, Clone, Copy)]
 pub(crate) struct PackageNumber(u32);
 
-impl ::std::convert::Into<u32> for PackageNumber {
+impl std::convert::Into<u32> for PackageNumber {
     fn into(self) -> u32 {
         self.0
     }

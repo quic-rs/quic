@@ -1,5 +1,6 @@
 #![feature(integer_atomics)]
 #![feature(exclusive_range_pattern)]
+#![feature(range_contains)]
 
 extern crate failure;
 #[macro_use]

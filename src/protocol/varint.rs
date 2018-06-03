@@ -1,6 +1,7 @@
 use super::{Decoder, Encoder};
 use bytes::{Buf, BufMut, IntoBuf};
 use error::{Error, ErrorKind, Result};
+use std;
 
 const MAX_INT_1: u64 = 0b00111111;
 const MAX_INT_2: u64 = 0b00111111_11111111;
@@ -15,7 +16,7 @@ const INT_8_FLAG: u8 = 0b11;
 #[derive(Debug, Default, PartialEq, Eq)]
 pub struct VarInt(u64);
 
-impl ::std::convert::From<u64> for VarInt {
+impl std::convert::From<u64> for VarInt {
     fn from(v: u64) -> VarInt {
         VarInt(v)
     }
